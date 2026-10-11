@@ -25,7 +25,7 @@ Using it feels like a platform: a profile, a reputation, people find you, you fi
 
 6. **Switch.** What's always yours sits on your device: the seed, the profiles made from it, your money, and a copy of your data, so you can move to any host. Everything around you is a service you can switch: the issuer, the host, the indexes, the app, the AI. That's what makes the competition fair: nobody can lock you in, so a service wins only by being better.
 
-No ads, no cut of your deals. The few things that cost money (the check, a registration, storage) are paid per use, and anyone can run a cheaper copy.
+No ads, no cut of your deals. Where something costs money, you pay per use, and anyone can run a cheaper copy.
 
 ## Questions
 
@@ -56,7 +56,7 @@ No ads, no cut of your deals. The few things that cost money (the check, a regis
 **How do payments work?** In digital dollars, straight to the other side. With a stranger, an escrow holds the money until both of you are done, and nothing in it lets anyone but the two sides, an arbiter you both chose or a timer move it. A finished deal becomes evidence behind the reviews.
 → [escrow](https://github.com/foundationforest/standard/tree/main/escrow)
 
-**Do I have to handle all this myself?** No. Connect an AI to Forest through an MCP, the standard plug that gives an AI its tools (we run one), and tell it what you want in plain English: find someone, make an offer, check a review. It works with access keys you hand it, which can do only what you allow, never with your main key, the one that makes them and can take them back.
+**Do I have to handle all this myself?** No. Connect an AI to Forest through an MCP, the standard plug that gives an AI its tools (we run one), and tell it what you want in plain English: find someone, write an offer, set up a payment, post a review. It works with access keys you hand it, which can do only what you allow, never with your main key, the one that makes them and can take them back.
 → [mcp](https://github.com/foundationforest/services/tree/main/mcp) · [keys](https://github.com/foundationforest/standard/tree/main/keys)
 
 **Can I be banned?** Not from Forest: nobody gave you your profile, so nobody can take it. A host can refuse to serve it and an index can leave it out; both are services you replace, and the profile and its history go with you.
