@@ -73,7 +73,7 @@ Forest is built by the Open Forest Foundation, a non-profit now being registered
 
 ## Where it stands
 
-Every piece except the app exists, and a test of the whole loop passes on a test network with test dollars: one person checked, profiles registered, a paid deal through escrow, a review, a rating proven. The checks in that test are stand-ins. No stranger has used it yet. Nothing is ready for real money; before that come the app, then sealing the [registry](https://github.com/foundationforest/standard/tree/main/registry) (the record of who's verified) so nobody can change it, us included, then a security review.
+Every piece except the app exists, and a test of the whole loop passes on a test network with test dollars: one person checked, profiles registered, a paid deal through escrow, a review, a rating proven. The checks in that test are stand-ins. No stranger has used it yet. Nothing is ready for real money; before that come the app, then sealing the [registry](https://github.com/foundationforest/standard/tree/main/registry) (the record of who's verified) and the escrow so nobody can change them, us included, then a security review.
 
 The standard is the only part everyone shares. Everything else can exist in copies: we built the first of each, and anyone can run another.
 
