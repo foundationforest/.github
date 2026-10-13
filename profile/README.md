@@ -73,7 +73,7 @@ Forest is built by the Open Forest Foundation, a non-profit now being registered
 
 ## Where it stands
 
-Every piece except the app exists, and a test of the whole loop passes on a test network with test dollars: one person checked, profiles registered, a paid deal through escrow, a review, a rating proven. The checks in that test are stand-ins. No stranger has used it yet. Nothing is ready for real money; before that come the app, then sealing the [registry](https://github.com/foundationforest/standard/tree/main/registry) (the record of who's verified) and the escrow so nobody can change them, us included, then a security review.
+The whole thing runs on a test network. The app is at app.devnet.forest.foundation: make your words, pass one face check, register a profile per role, post offers and reviews, message people, and let an AI act for you through keys you make. The face check is real and carries over to the real network; profiles, offers and messages are a test and reset when it starts. No money moves yet: the escrow and the payers exist and pass the full loop with test dollars, but the app has no money screens. Before real money come the money screens, then sealing the [registry](https://github.com/foundationforest/standard/tree/main/registry) (the record of who's verified) and the escrow so nobody can change them, us included, then a security review.
 
 The standard is the only part everyone shares. Everything else can exist in copies: we built the first of each, and anyone can run another.
 
@@ -81,7 +81,7 @@ The standard is the only part everyone shares. Everything else can exist in copi
 |---|---|---|
 | [standard](https://github.com/foundationforest/standard) | the rules every piece follows, the registry, an escrow, and the libraries that implement them | built; the registry not yet sealed |
 | [services](https://github.com/foundationforest/services) | what we run: an issuer, a host, an index, the two payers, the tools AIs use; open code, plus how we run each | running on the test network |
-| [app](https://github.com/foundationforest/app) | holds your seed, every service swappable, ours by default; web first, then phones | not built yet |
+| [app](https://github.com/foundationforest/app) | holds your seed; a screen per profile; an AI connects through MCP; every service swappable, ours by default; web first, then phones | running on the test network, no money yet |
 | [markets](https://github.com/foundationforest/markets) | the open list of markets and their shapes | open to proposals |
 
 One person built this far, with AI. What's here is the bare minimum to start: the standard, and one copy of each service, ours. What it needs now is people: the first markets, the first profiles, the first deals, and better copies of what we run, because competition is the point. If you think the economy should be open and fair: propose a market, build on the standard, run a service.
