@@ -10,7 +10,7 @@ It doesn't have to be this way. Modern technology lets us rethink how finding an
 
 The core idea: if you own your profiles, you can switch, and if you can switch, there is no dependency. Everything a platform does (verification, hosting, algorithms, UI) unbundles into services that compete to serve you, not to capture you. Let's start from the bottom:
 
-**Profiles.** Platforms make sure there's a real, unique person behind every profile, so you can't simply start over. Here, you hold one secret on your device, and from it you create one profile per role you play (seller, renter, patient), and nobody can link them. To make yourself accountable, verifiers check that you're a real, unique person and sign off on your secret, without ever seeing it. Every profile made from it becomes accountable too.
+**Profiles.** Platforms make sure there's a real, unique person behind every profile, so you can't simply start over. Here, you hold one secret on your device, and from it you create one profile per role you play (seller, renter, patient), and nobody can link them unless you do. To make yourself accountable, verifiers check that you're a real, unique person and sign off on your secret, without ever seeing it. Every profile made from it becomes accountable too.
 
 **Posting.** A platform keeps your posts inside its app. Now each market (rides, rentals, freelance work, anything) has an open standard for what an offer and a review look like, and your profiles post them publicly, on any host you choose. Each is signed by whoever wrote it, so nobody can fake one, and the reviews you receive stick to you and belong to whoever wrote them.
 
@@ -24,7 +24,7 @@ Every piece follows an open standard, so anyone can build a verifier, a host, an
 
 **Fair competition.** Rankings are built by indexes from public ratings and reviews. So the way up is a better reputation, earned through quality and price, not a bigger ad budget.
 
-**Any market can exist.** A new market is just an open standard away. Anyone can propose one, for anything, and it works the day someone posts the first offer.
+**Any market can exist.** A new market is just an open standard away. Anyone can propose one, for anything, and nobody has to build a new platform for it.
 
 **One open network.** Everyone in a market meets in the same open network instead of being split across rival apps. You get the reach of a monopoly, without anyone in the middle.
 
@@ -36,7 +36,7 @@ The Forest Foundation is a non-profit with one goal: a fairer, more open future.
 
 We wrote the first standards and services so Forest works, all open source for anyone to review. They aren't perfect. We need help polishing the standards and creating new markets, and we hope for competitors to our services.
 
-What we need most right now is people. The first version works, and the network gets better with every person on it. It's free, and you can start in two minutes.
+What we need most right now is people. The first version works, and the network gets better with every person on it. Starting is free and takes two minutes.
 
 - **[Standard](https://github.com/foundationforest/standard):** the shared formats everything is built on: keys, profiles, folders and proofs.
 - **[Markets](https://github.com/foundationforest/markets):** what an offer and a review hold in each market. Anyone can propose a new one.
@@ -47,8 +47,8 @@ Some of our services will make money to sustain the foundation. Everything we ea
 
 ## FAQ
 
-**How can a verifier vouch for me without knowing my profiles?** It never sees your secret. Your device shows it a number made from your secret, and it signs that. Each profile then proves, with a zero-knowledge proof, that it comes from a verified secret, without showing which one. So your profiles can't be traced to each other or to you, and you never have to show your name. You decide what to link.
+**How can a verifier vouch for me without knowing my profiles?** It never sees your secret. Your device shows it a number made from your secret, and it signs that. Each profile then proves, with a zero-knowledge proof, that it comes from a verified secret, without showing which one. So nothing public traces your profiles to each other or to you, and you never have to show your name. You decide what to link.
 
 **What if I lose my phone?** Your secret lives in a passkey, kept by your password manager (Apple's, Google's or another) the same way it keeps your passwords. Sign in on a new device and everything comes back. If you lose the passkey itself, nobody can recover it for you: that's the price of no one holding it but you.
 
-**What's next?** Payments first. Your profiles already have their own addresses for digital dollars. Next, the app will hold a deal's money until both sides are happy, and your AI will be able to pay for you, within limits you set. Later, an AI that runs on your own device, so not even your AI's company sees what you do.
+**What's next?** Payments first. Your profiles already have their own addresses for digital dollars. Next, a deal's money can be held by the terms both sides agreed to, and your AI will be able to pay for you, within limits you set. Later, an AI that runs on your own device, so not even your AI's company sees what you do.
