@@ -1,51 +1,54 @@
 # Forest
 
-Every deal between strangers needs two things: finding each other, and trusting each other. Platforms like Uber, Airbnb and Amazon solved both at scale. It's why you can get into a stranger's car or sleep in a stranger's home.
+Every deal between strangers needs two things: finding each other, and trusting each other. Platforms like Uber, Airbnb and Amazon solve both at scale. It's why you can get into a stranger's car or rent their home without thinking about it.
 
-The catch is that we depend on them. Your profile, with all its reviews, lives inside their app and only counts there. Leave, and you start from zero. So nobody leaves, and they take more: bigger cuts every year, paid ads in your search results.
+The catch is that we depend on these platforms. Your profile, with all its reviews, lives inside their app and only counts there. Leave, and you start from zero. So nobody leaves, and they use it to their advantage: bigger cuts every year, more ads in your search results, rules that can change or shut you out overnight.
 
-With Forest, your profiles can now be yours. Everything else a platform does unbundles into services that compete to serve you, and you can switch any of them any time. It works at any scale, and you start for free in two minutes. From then on, you just talk to your AI in plain English.
+It doesn't have to be this way. Modern technology lets us rethink how finding and trusting work, without dependencies, and with a much better experience. We built Forest's first version to prove it's possible.
 
 ## How it works
 
-**Accountability.** A platform makes sure there's a real person behind every profile, one who can't simply start over. Now you can hold one secret on your phone, called a seed, that makes one profile for each role you play. A verifier checks that you're a real person it hasn't stamped before, and stamps your seed. Every profile made from it carries the stamp, so anyone can trust there's one real person behind it who can't escape their record.
+The core idea: if you own your profiles, you can switch, and if you can switch, there is no dependency. Everything a platform does (verification, hosting, algorithms, UI) unbundles into services that compete to serve you, not to capture you. Let's start from the bottom:
 
-**Offers and reviews.** A platform keeps your listings and reviews inside its app. Now each market (rides, rentals, freelance work, anything) has an open standard for what an offer and a review look like, and your profiles post them publicly, on any host you choose. Each is signed by whoever wrote it, so nobody can fake one, and nobody can delete a review someone else wrote about you.
+**Profiles.** Platforms make sure there's a real, unique person behind every profile, so you can't simply start over. Here, you hold one secret on your device, and from it you create one profile per role you play (seller, renter, patient), and nobody can link them unless you do. To make yourself accountable, verifiers check that you're a real, unique person and sign off on your secret, without ever seeing it. Every profile made from it becomes accountable too.
 
-**Finding.** A platform decides who you see, with its own private algorithm. Now everything is public, so anyone can build an index: read every offer and review, check who stamped each profile, and rank them with their own algorithm. You choose the index you trust, so indexes compete on how good their rankings are.
+**Posting.** A platform keeps your posts inside its app. Now each market (rides, rentals, freelance work, anything) has an open standard for what an offer and a review look like, and your profiles post them publicly, on any host you choose. Each is signed by whoever wrote it, so nobody can fake one, and the reviews you receive stick to you and belong to whoever wrote them.
 
-**Using it.** A platform gives you its app. But software is moving to plain English, through AI. Now you create your seed, get verified, and connect the AI you already use. It can find, post, review, message, and pay for you if you keep money in digital dollars (dollars that move over the internet like a message). It never holds your keys: it asks, your own device does the work within the permissions you set, and anything outside them asks for your face.
+**Finding.** A platform decides who you see, with its own private algorithm. Now everything is public, so anyone can build an index: read every offer and review in a market, check who verified each profile, and rank them with their own algorithm. You choose the index you trust, so indexes compete on how good their rankings are.
+
+**Using it.** Today each platform has its own app. But the way we use software is moving to plain English. Connect your profiles to the AI app you already use, and it can find, post, review and message for you, only within what you allow, and you can take that back any time. It can even build the screen you need on the spot. One app, with all your context, in plain English.
 
 Every piece follows an open standard, so anyone can build a verifier, a host, an index or an app, and you can switch between them any time.
 
 ## What this changes
 
-**Services compete for you.** No service holds your profile, so none can lock you in. They earn by charging for what they do, and they keep you only by doing it better or cheaper than the next one.
+**Fair competition.** Rankings are built by indexes from public ratings and reviews. So the way up is a better reputation, earned through quality and price, not a bigger ad budget.
 
-**You win on your record.** Rankings are built from public reviews by indexes you choose. The way up is a better record, not a bigger ad budget.
+**Any market can exist.** A new market is just an open standard away. Anyone can propose one, for anything, and nobody has to build a new platform for it.
 
-**One network, no owner.** Everyone in a market meets in the same open network instead of being split across rival apps. You get the reach of the biggest platform, without a platform in the middle.
+**One open network.** Everyone in a market meets in the same open network instead of being split across rival apps. You get the reach of a monopoly, without anyone in the middle.
 
-**Any market can exist.** A market is just an open standard for its offers and reviews. Anyone can propose one, for anything, and it works the day someone posts the first offer.
-
-**Your AI can do the coordinating.** Many companies exist mainly to put the pieces together for you, like a general contractor or a travel agent. When every offer and review is open and your AI can act for you, it can do that itself: plan the whole trip, or find the architect, the materials and the crew, as those markets fill.
+**Agency.** Many companies exist mainly to put several markets together for you: a delivery app joins restaurants and couriers, a travel site joins flights, hotels and cars. When every offer and review is open and your AI can act for you, it can put them together itself, and still hire an expert, like a planner or an architect, when you want one.
 
 ## Where we are
 
-We started the Open Forest Foundation, a non-profit, to prove this works. We wrote the first open standards and run the first services: a verifier, a host, an index, the connector for your AI, and the app to get started. It's live.
+The Forest Foundation is a non-profit with one goal: a fairer, more open future.
 
-We don't need our services to win. Leave every one of them tomorrow and you keep your profiles and your reputation. The day that stops being true, we've failed.
+We wrote the first standards and services so Forest works, all open source for anyone to review. They aren't perfect. We need help polishing the standards and creating new markets, and we hope for competitors to our services.
 
-No investors, no ads, no coin, no cut of your deals. Open source, open finances. To use it, get verified and claim your profiles. To build on it, propose a market or run a better service than ours.
+What we need most right now is people. The first version works, and the network gets better with every person on it. Starting is free and takes two minutes.
 
-## Questions
+- **[Standard](https://github.com/foundationforest/standard):** the shared formats everything is built on: keys, profiles, folders and proofs.
+- **[Markets](https://github.com/foundationforest/markets):** what an offer and a review hold in each market. Anyone can propose a new one.
+- **[Services](https://github.com/foundationforest/services):** the first verifier, host, index and AI connector, which we run.
+- **[App](https://github.com/foundationforest/app):** your control panel: create your profiles, get verified, connect your AI.
 
-**What stops fake profiles and fake reviews?** Indexes decide what counts. Ours counts only stamped profiles and ranks the way Google first ranked the web: a review counts more when it comes from a profile others trust, so a ring of fakes vouching for each other counts for little.
+Some of our services will make money to sustain the foundation. Everything we earn goes back into the project, and our finances will be 100% public, on chain.
 
-**Can anyone see who I am?** No. Nobody can link your profiles to each other or to you unless you show it. The stamp proves a real person is behind a profile, not which one.
+## FAQ
 
-**What can my AI do without me?** Only what your permissions allow: which profiles, which actions, how much money, until when. Anything else asks for your face, and so does changing your profile, where it's stored, or the permissions themselves, whatever you've allowed. It acts on its own while a computer of yours is on with the app open; from your phone, you approve with your face.
+**How can a verifier vouch for me without knowing my profiles?** It never sees your secret. Your device shows it a number made from your secret, and it signs that. Each profile then proves, with a zero-knowledge proof, that it comes from a verified secret, without showing which one. So nothing public traces your profiles to each other or to you, and you never have to show your name. You decide what to link.
 
-**How does money work?** Payment is up to you. With digital dollars, money moves straight from one profile to another, or is held until the deal is done. There is no Forest coin.
+**What if I lose my phone?** Your secret lives in a passkey, kept by your password manager (Apple's, Google's or another) the same way it keeps your passwords. Sign in on a new device and everything comes back. If you lose the passkey itself, nobody can recover it for you: that's the price of no one holding it but you.
 
-**What if I lose my phone, or a service drops me?** Your seed is backed up to your other devices, so your profiles come back with it. If a host or index drops you, switch to another and keep everything.
+**What's next?** Payments first. Your profiles already have their own addresses for digital dollars. Next, a deal's money can be held by the terms both sides agreed to, and your AI will be able to pay for you, within limits you set. Later, an AI that runs on your own device, so not even your AI's company sees what you do.
