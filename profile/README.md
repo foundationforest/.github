@@ -60,7 +60,7 @@ The Forest Foundation is a non-profit building this open network. Some services,
 
 **Why now? Haven't people tried this before?** Yes, and most attempts failed for two reasons: nobody was accountable, so reviews meant little, or they were too hard to use. We believe this solves both: a verifier makes every profile accountable, and your AI handles the hard parts in plain English.
 
-**Who will I find there?** Early on, few people, and honestly we don't know how fast that changes. We expect simple markets to start first, where a profile and its reviews are enough. Share your profile's link wherever you already sell, so the people you already deal with build a reputation you own. Anyone can find you: through their AI once it's connected, or on an index's website with no sign-up.
+**Who will I find there?** Early on, few people, and honestly we don't know how fast that changes. We expect simple markets to start first, where a profile and its reviews are enough. Share your profile's link wherever you already sell, so the people you already deal with build a reputation you own. Anyone can find you: through their AI once it's connected, or on [an index's website](https://index.forest.foundation) with no sign-up.
 
 **Is it free?** To start, yes. The app and the face check are free, and they come with credits for thousands of posts and messages. After that, your host charges a tiny fraction of a cent for each. The ID check is $5: a stronger verification that also helps fund the foundation.
 
