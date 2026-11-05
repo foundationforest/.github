@@ -10,7 +10,7 @@ It doesn't have to be this way. Modern technology lets strangers find and trust 
 
 The core idea: if you own your profiles, you can switch, and if you can switch, there is no dependency. Everything a platform does, from checking who's real to settling disputes, unbundles into services that compete to serve you, not to capture you. Let's start from the bottom:
 
-**Profiles.** Platforms make sure there's a real, unique person behind every profile, so you can't simply start over. Here, you hold one secret on your device, and from it you create one profile per role you play (seller, renter, patient), and nothing public links them unless you do. To make yourself accountable, verifiers check that you're a real, unique person and sign off on your secret, without ever seeing it. Every profile made from it becomes accountable too.
+**Profiles.** Platforms make sure there's a real, unique person behind every profile, so you can't simply start over. Here, you hold one secret, your seed, in the password manager you choose, and from it you create one profile per role you play (seller, renter, patient), and nothing public links them unless you do. To make yourself accountable, verifiers check that you're a real, unique person and sign off on your seed, without ever seeing it. Every profile made from it becomes accountable too.
 
 **Posting.** A platform keeps your listings and reviews inside its app. Now each market (rides, rentals, freelance work, anything) has an open standard for what a listing (an offer or a request) and a review look like. Your profiles post them publicly, on a host: a service anyone can run that keeps them online for anyone to read. Each is signed by whoever wrote it, so nobody can fake one, and the reviews you receive stick to you and belong to whoever wrote them.
 
@@ -18,7 +18,7 @@ The core idea: if you own your profiles, you can switch, and if you can switch, 
 
 **Using it.** Today each platform has its own app. But the way we use software is moving to plain English, with AI apps that can even draw the screen you need on the spot. Connect your profiles to the AI app you already use, and it can find, post, review and message for you, only within what you allow, and you can take that back any time. One app, with all your context, in plain English.
 
-Every piece follows an open standard, so anyone can build a verifier, a host, an index or an app, and you'll be able to switch between them any time.
+Every piece follows an open standard, so anyone can build a verifier, a host, an index or an app, and you can switch between them any time.
 
 ## What this changes
 
@@ -28,7 +28,7 @@ Every piece follows an open standard, so anyone can build a verifier, a host, an
 
 **One open network.** Everyone in a market meets in the same open network instead of being split across rival apps. You get the reach of a monopoly, without anyone in the middle.
 
-**Agency.** Many companies exist mainly to put several markets together for you: a delivery app joins restaurants and couriers, a travel site joins flights, hotels and cars. When every listing and review is open and your AI can act for you, it can put them together itself, and still hire an expert, like a planner or an architect, when you want one.
+**Agency.** Many companies exist mainly to put several markets together for you: a delivery app joins restaurants and couriers, a travel site joins flights, hotels and cars. Big deals already work without one: buying a house brings an inspector, a lender, an insurer and an escrow agent together, none of them the same company. Small deals got bundled mostly because arranging all that by hand cost more than the deal. When every listing and review is open and your AI can act for you, it can put them together itself, and still hire an expert, like a planner or an architect, when you want one.
 
 ## Where we are
 
@@ -40,7 +40,7 @@ It's early, everything is open source, and nothing is perfect yet. We need peopl
 
 What we need most is people using it: an open network gets better with every person on it. [Starting](https://app.forest.foundation) is free and takes two minutes, and [looking around](https://index.forest.foundation) takes nothing.
 
-- **[Standard](https://github.com/foundationforest/standard):** the shared formats everything is built on: keys, proofs, folders, and escrows that hold a deal's money.
+- **[Standard](https://github.com/foundationforest/standard):** the shared formats everything is built on: keys made from your seed, proofs that a profile is verified, folders where a profile's listings and reviews live, and escrows that hold a deal's money.
 - **[Markets](https://github.com/foundationforest/markets):** what a listing and a review hold in each market. Anyone can propose a new one.
 - **[Services](https://github.com/foundationforest/services):** the first verifier, host, index and AI connector, which we run.
 - **[App](https://github.com/foundationforest/app):** your control panel: create your profiles, get verified, post, message and connect your AI.
@@ -49,12 +49,12 @@ Some of our services will charge a little, like verifying with your ID, to susta
 
 ## What's next
 
-- **Switching, for real.** Today our app works with our host alone, and your secret stays in its passkeys. Next, moving your profiles to another host and taking your secret to another app, so you can leave any service we run.
 - **Payments.** Your profiles already have their own addresses for digital dollars. Next, a deal's money can be held by the terms both sides agreed to, you'll have simple ways to move dollars in and out, and your AI will be able to pay for you, within limits you set. Real money moves only after the code has had an outside review.
-- **More complex markets.** As payments arrive and more services appear, markets with more moving parts can exist too. Renting a home, for example, needs a deposit and someone to settle disputes, and each of those parts is a service anyone can offer.
-- **Your reputation, carried.** A new profile will be able to show the trust you earned with your other profiles, without linking them.
-- **Forest inside your AI app.** Listings, messages and payments you can see and tap, right in your chat, not only as text.
-- **Later:** an AI that runs on your own device, so not even your AI's company sees what you do.
+- **Markets with more parts.** With payments in place, deals that need more than two people can follow, like a rental with a deposit and someone to settle disputes, each part a service anyone can offer.
+- **Your reputation, everywhere.** A good record in one market will help your new profile in another, without linking the two.
+- **Screens in your chat.** Listings and messages you can see and tap right in your AI app, not only as text.
+- **A phone app.** With notifications, so new messages and reviews reach you right away.
+- **An AI on your own device.** For even more privacy: one that runs on your phone, so not even your AI's company sees what you do.
 
 ## FAQ
 
@@ -62,6 +62,10 @@ Some of our services will charge a little, like verifying with your ID, to susta
 
 **What if nobody's on it yet?** It's useful from day one. Your listings show on [our index](https://index.forest.foundation) right away, for free: anyone can find you there on the web, or through an AI connected to Forest, and contact you. And you can bring the clients you already have: share your profile with them, they join for free and review you, and the reputation you build is yours to keep, wherever you find your next client.
 
-**How can a verifier check me without knowing my profiles?** It never sees your secret. Your device shows it a number made from your secret, and it signs that. Each profile then proves, with a [zero-knowledge proof](https://github.com/foundationforest/standard/blob/main/proofs/README.md), that it comes from a verified secret, without showing which one. So nothing public traces your profiles to each other or to you, and you never have to show your name. You decide what to link.
+**What stops friends from faking reviews for each other?** Each of them is one real person, verified once, so nobody can invent a crowd of fake reviewers. And an index can weigh each review by the reviewer's own reputation, so a group of friends can lift each other only so far. Once payments arrive, a review can also point to a real, paid deal.
 
-**What if I lose my phone?** Your secret lives in a passkey, kept by your password manager (Apple's, Google's or another) the same way it keeps your passwords. Sign in on a new device and everything comes back. You can also add a second passkey, in another password manager or on a security key, so losing one loses nothing. Lose every passkey, and nobody can recover them for you: that's the price of no one holding your secret but you.
+**If anyone can run a verifier, can't one person get verified twice?** By two different verifiers, yes. So each index decides which verifiers it counts and how much, and a profile verified by several counts as more surely one person. Verifiers compete on how hard they are to fool, and some could even check something only one person has, like the chip in a passport, and agree on who's who without sharing anyone's data.
+
+**How can a verifier check me without knowing my profiles?** It never sees your seed. Your device shows it a number made from your seed, and it signs that. Each profile then proves, with a [zero-knowledge proof](https://github.com/foundationforest/standard/blob/main/proofs/README.md), that it comes from a verified seed, without showing which one. So nothing public traces your profiles to each other or to you, and no profile ever shows your name. You decide what to link.
+
+**What if I lose my phone?** Your seed lives in a passkey, kept by your password manager (Apple's, Google's or another) the same way it keeps your passwords. Sign in on a new device and everything comes back. You can also add a second passkey, in another password manager or on a security key, so losing one loses nothing. And the app can show your seed as 24 words: write them down, and they open your profiles in any app. Lose every passkey and your words, and nobody can recover them for you: that's the price of no one holding your seed but you.
