@@ -10,7 +10,7 @@ It doesn't have to be this way. Modern technology lets strangers find and trust 
 
 The core idea: if you own your profiles, you can switch, and if you can switch, there is no dependency. Everything a platform does, from checking who's real to settling disputes, unbundles into services that compete to serve you, not to capture you. Let's start from the bottom:
 
-**Profiles.** Platforms make sure there's a real, unique person behind every profile, so you can't simply start over. Here, you hold one secret on your device, and from it you create one profile per role you play (seller, renter, patient), and nobody can link them unless you do. To make yourself accountable, verifiers check that you're a real, unique person and sign off on your secret, without ever seeing it. Every profile made from it becomes accountable too.
+**Profiles.** Platforms make sure there's a real, unique person behind every profile, so you can't simply start over. Here, you hold one secret on your device, and from it you create one profile per role you play (seller, renter, patient), and nothing public links them unless you do. To make yourself accountable, verifiers check that you're a real, unique person and sign off on your secret, without ever seeing it. Every profile made from it becomes accountable too.
 
 **Posting.** A platform keeps your listings and reviews inside its app. Now each market (rides, rentals, freelance work, anything) has an open standard for what a listing (an offer or a request) and a review look like. Your profiles post them publicly, on a host: a service anyone can run that keeps them online for anyone to read. Each is signed by whoever wrote it, so nobody can fake one, and the reviews you receive stick to you and belong to whoever wrote them.
 
@@ -18,7 +18,7 @@ The core idea: if you own your profiles, you can switch, and if you can switch, 
 
 **Using it.** Today each platform has its own app. But the way we use software is moving to plain English, with AI apps that can even draw the screen you need on the spot. Connect your profiles to the AI app you already use, and it can find, post, review and message for you, only within what you allow, and you can take that back any time. One app, with all your context, in plain English.
 
-Every piece follows an open standard, so anyone can build a verifier, a host, an index or an app, and you can switch between them any time.
+Every piece follows an open standard, so anyone can build a verifier, a host, an index or an app, and you'll be able to switch between them any time.
 
 ## What this changes
 
