@@ -12,7 +12,7 @@ The core idea: if you own your profiles, you can switch, and if you can switch, 
 
 **Profiles.** Platforms make sure there's a real, unique person behind every profile, so you can't simply start over. Here, you hold one secret on your device, and from it you create one profile per role you play (seller, renter, patient), and nobody can link them unless you do. To make yourself accountable, verifiers check that you're a real, unique person and sign off on your secret, without ever seeing it. Every profile made from it becomes accountable too.
 
-**Posting.** A platform keeps your listings and reviews inside its app. Now each market (rides, rentals, freelance work, anything) has an open standard for what a listing (an offer or a request) and a review look like. Your profiles post them publicly, on any host you choose: a service that keeps them online for anyone to read. Each is signed by whoever wrote it, so nobody can fake one, and the reviews you receive stick to you and belong to whoever wrote them.
+**Posting.** A platform keeps your listings and reviews inside its app. Now each market (rides, rentals, freelance work, anything) has an open standard for what a listing (an offer or a request) and a review look like. Your profiles post them publicly, on a host: a service anyone can run that keeps them online for anyone to read. Each is signed by whoever wrote it, so nobody can fake one, and the reviews you receive stick to you and belong to whoever wrote them.
 
 **Finding.** A platform decides who you see, with its own private algorithm. Now everything is public, so anyone can look without an account, and anyone can build an index: read every listing and review in a market, check who verified each profile, and rank them with their own algorithm. An index can rank the way a small town judges, where praise counts for more from someone with a good name of their own. You choose the index you trust, so indexes compete on how good their rankings are.
 
@@ -45,10 +45,11 @@ What we need most is people using it: an open network gets better with every per
 - **[Services](https://github.com/foundationforest/services):** the first verifier, host, index and AI connector, which we run.
 - **[App](https://github.com/foundationforest/app):** your control panel: create your profiles, get verified, post, message and connect your AI.
 
-Some of our services charge a little, like verifying with your ID, to sustain the foundation. Everything we earn goes back into the project, and our finances are public, on chain: [address].
+Some of our services will charge a little, like verifying with your ID, to sustain the foundation. Everything we earn goes back into the project, and our finances will be public, on chain.
 
 ## What's next
 
+- **Switching, for real.** Today our app works with our host alone, and your secret stays in its passkeys. Next, moving your profiles to another host and taking your secret to another app, so you can leave any service we run.
 - **Payments.** Your profiles already have their own addresses for digital dollars. Next, a deal's money can be held by the terms both sides agreed to, you'll have simple ways to move dollars in and out, and your AI will be able to pay for you, within limits you set. Real money moves only after the code has had an outside review.
 - **More complex markets.** As payments arrive and more services appear, markets with more moving parts can exist too. Renting a home, for example, needs a deposit and someone to settle disputes, and each of those parts is a service anyone can offer.
 - **Your reputation, carried.** A new profile will be able to show the trust you earned with your other profiles, without linking them.
